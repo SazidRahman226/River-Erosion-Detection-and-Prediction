@@ -1,0 +1,11 @@
+[sam] loading sam3.1 checkpoint: C:\Users\Sazid\.cache\huggingface\hub\models--facebook--sam3.1\snapshots\daa63191845a41281374e725f4c9e51c7a824460\sam3.1_multiplex.pt  (device=cuda)
+loaded C:\Users\Sazid\.cache\huggingface\hub\models--facebook--sam3.1\snapshots\daa63191845a41281374e725f4c9e51c7a824460\sam3.1_multiplex.pt and found missing and/or unexpected keys:
+missing_keys=['backbone.vision_backbone.convs.3.conv_1x1.weight', 'backbone.vision_backbone.convs.3.conv_1x1.bias', 'backbone.vision_backbone.convs.3.conv_3x3.weight', 'backbone.vision_backbone.convs.3.conv_3x3.bias']
+* Running on local URL:  http://127.0.0.1:7860
+* To create a public link, set `share=True` in `launch()`.
+C:\Users\Sazid\Documents\RiverErosion\personal\app.py:68: RuntimeWarning: invalid value encountered in cast
+  out[..., c] = (np.clip((band - lo) / (hi - lo), 0, 1) * 255).astype(np.uint8)
+C:\Users\Sazid\Documents\RiverErosion\personal\app.py:68: RuntimeWarning: invalid value encountered in cast
+  out[..., c] = (np.clip((band - lo) / (hi - lo), 0, 1) * 255).astype(np.uint8)
+C:\Users\Sazid\Documents\RiverErosion\personal\app.py:68: RuntimeWarning: invalid value encountered in cast
+  out[..., c] = (np.clip((band - lo) / (hi - lo), 0, 1) * 255).astype(np.uint8)

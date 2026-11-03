@@ -1,0 +1,15 @@
+# Install torch first (CUDA 12.8 build, required for RTX 50xx / Blackwell):
+#   uv pip install torch==2.10.0 torchvision --index-url https://download.pytorch.org/whl/cu128
+# Then:
+#   uv pip install -e ./sam3 -r requirements.txt
+gradio>=5
+rasterio
+pillow
+numpy<2
+einops
+opencv-python
+pycocotools
+scipy
+scikit-image
+psutil
+triton-windows>=3.6,<3.7; sys_platform == "win32"
